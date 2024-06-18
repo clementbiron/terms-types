@@ -39,8 +39,8 @@ body:
     label: Examples
     description: |
       Provide examples of documents of this new terms type
-      For example
-      - URL: https://www.partners.skyscanner.net/privacy-policy
+      For example:
+        URL: https://www.partners.skyscanner.net/privacy-policy
         Title: Corporate Business Contact Privacy Notice
         Service: Skyscanner
 - type: textarea
