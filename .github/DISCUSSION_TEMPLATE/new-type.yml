@@ -1,41 +1,51 @@
 title: "Add: <!-- here goes your type name -->"
-labels: ["suggestion"]
+labels: ["New type"]]
 body:
 - type: input
-  id: type-name
+  id: name
   attributes:
     label: Type name
     description: What is the name of the terms type you would like to add?
-    placeholder: "Example: Privacy Policy"
+    placeholder: "Example: Business Privacy Policy"
   validations:
     required: true
-- type: markdown
+- type: textarea
+  id: alternative-type-names
   attributes:
-    value: "## Tryptich"
+    label: Alternative type names
+    description: Suggest alternative names if you have any
+    placeholder: "Example: Business Users Privacy Policy, Commercial Privacy Policy"
 - type: input
   id: writer
   attributes:
     label: Writer
     description: the writer of the document, in most cases the service provider itself;
-    placeholder: "Example: service provider"
+    placeholder: "Example: intermediation service provider"
 - type: input
   id: audience
   attributes:
     label: Audience
     description: the targeted audience whose rights and duties are defined in the associated terms;
-    placeholder: "Example: end user"
+    placeholder: "Example: business user"
 - type: input
   id: object
   attributes:
     label: Object
     description: the object of the commitment, i.e. the information or interaction whose handling will be constrained by the associated terms.
-    placeholder: "Example: end user’s personal data"
-- type: markdown
+    placeholder: "Example: personal data of business users and of people acting on their behalf"
+- type: textarea
+  id: examples
   attributes:
-    value: "## Examples"
-- type: markdown
+    label: Examples
+    description: Provide examples of documents of this new terms type
+    value: |
+      1. <URL><Title><Service>
+      2. <URL><Title><Service>
+      3. <URL><Title><Service>
+      ...
+- type: textarea
+  id: references
   attributes:
-    value: "## Naming"
-- type: markdown
-  attributes:
-    value: "## References"
+    label: References
+    description: What operating system are you using?
+    placeholder: "Example: Open Terms Archive discussion: https://github.com/OpenTermsArchive/engine/discussions/923"
