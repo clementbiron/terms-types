@@ -19,19 +19,19 @@ body:
   id: writer
   attributes:
     label: Writer
-    description: the writer of the document, in most cases the service provider itself;
+    description: The writer of the document, in most cases the service provider itself;
     placeholder: "Example: intermediation service provider"
 - type: input
   id: audience
   attributes:
     label: Audience
-    description: the targeted audience whose rights and duties are defined in the associated terms;
+    description: The targeted audience whose rights and duties are defined in the associated terms;
     placeholder: "Example: business user"
 - type: input
   id: object
   attributes:
     label: Object
-    description: the object of the commitment, i.e. the information or interaction whose handling will be constrained by the associated terms.
+    description: The object of the commitment, i.e. the information or interaction whose handling will be constrained by the associated terms.
     placeholder: "Example: personal data of business users and of people acting on their behalf"
 - type: textarea
   id: examples
@@ -39,11 +39,8 @@ body:
     label: Examples
     description: Provide examples of documents of this new terms type
     placeholder: |
-      | URL                                                       | Title                                     | Service    |
-      |-----------------------------------------------------------|-------------------------------------------|------------|
-      | [URL](https://www.partners.skyscanner.net/privacy-policy) | Corporate Business Contact Privacy Notice | Skyscanner |
-      | [URL](https://bolt.eu/en/legal/ie/privacy-for-drivers/)   | Privacy Notice for Drivers                | Bolt       |
-      | [URL](https://www.shopify.com/legal/privacy/merchants)    | Privacy for Merchants                     | Shopify    |
+      Example:
+      URL: https://www.partners.skyscanner.net/privacy-policy | Title: Corporate Business Contact Privacy Notice | Service: Skyscanner
     render: markdown
 - type: textarea
   id: references
