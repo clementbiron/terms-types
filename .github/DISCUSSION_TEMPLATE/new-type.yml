@@ -32,7 +32,7 @@ body:
   attributes:
     label: Object
     description: The object of the commitment, i.e. the information or interaction whose handling will be constrained by the associated terms.
-    placeholder: personal data of business users and of people acting on their behalf
+    placeholder: personal data of business users
 - type: textarea
   id: examples
   attributes:
