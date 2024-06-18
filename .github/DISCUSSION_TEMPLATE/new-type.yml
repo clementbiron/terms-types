@@ -46,5 +46,5 @@ body:
   id: references
   attributes:
     label: References
-    description: What operating system are you using?
+    description: Related resources that may help to understand the purpose of this type, such as legal definitions, or the discussions that led to the choice of this name.
     placeholder: "Open Terms Archive discussion: https://github.com/OpenTermsArchive/engine/discussions/923"
