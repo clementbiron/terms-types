@@ -1,5 +1,6 @@
 title: "Add: "
 labels: ["New type"]
+body:
 - type: input
   id: type-name
   attributes:
