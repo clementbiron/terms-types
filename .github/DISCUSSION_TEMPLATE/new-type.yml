@@ -5,7 +5,7 @@ body:
   id: name
   attributes:
     label: Type name
-    description: What is the name of the terms type you would like to add?
+    description: The name of the terms type you would like to add.
     placeholder: Business Privacy Policy
   validations:
     required: true
@@ -13,19 +13,19 @@ body:
   id: alternative-type-names
   attributes:
     label: Alternative type names
-    description: Suggest alternative names if you have any.
+    description: Different names for the same terms type.
     placeholder: Business Users Privacy Policy, Commercial Privacy Policy
 - type: input
   id: writer
   attributes:
     label: Writer
-    description: The writer of the document, in most cases the service provider itself;
+    description: The writer of the document, in most cases the service provider itself.
     placeholder: intermediation service provider
 - type: input
   id: audience
   attributes:
     label: Audience
-    description: The targeted audience whose rights and duties are defined in the associated terms;
+    description: The targeted audience whose rights and duties are defined in the associated terms.
     placeholder: business user
 - type: input
   id: object
@@ -38,7 +38,7 @@ body:
   attributes:
     label: Examples
     description: |
-      Provide examples of documents of this new terms type with the URL address from which the document can be accessed, the title of the document provided at this URL and the name of the service provider. For example:
+      Examples of documents of this new terms type with the URL address from which the document can be accessed, the title of the document provided at this URL and the name of the service. For example:
       `https://www.partners.skyscanner.net/privacy-policy - Corporate Business Contact Privacy Notice - Skyscanner`
     placeholder: | 
       URL - Title - Service name
