@@ -1,4 +1,4 @@
-title: "Add: <here goes your type name>"
+title: "Add: "
 labels: ["New type"]
 body:
 - type: input
