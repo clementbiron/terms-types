@@ -13,26 +13,26 @@ body:
   id: alternative-type-names
   attributes:
     label: Alternative type names
-    description: Suggest alternative names if you have any
-    placeholder: "Example: Business Users Privacy Policy, Commercial Privacy Policy"
+    description: Suggest alternative names if you have any.
+    placeholder: Business Users Privacy Policy, Commercial Privacy Policy
 - type: input
   id: writer
   attributes:
     label: Writer
     description: The writer of the document, in most cases the service provider itself;
-    placeholder: "Example: intermediation service provider"
+    placeholder: intermediation service provider
 - type: input
   id: audience
   attributes:
     label: Audience
     description: The targeted audience whose rights and duties are defined in the associated terms;
-    placeholder: "Example: business user"
+    placeholder: business user
 - type: input
   id: object
   attributes:
     label: Object
     description: The object of the commitment, i.e. the information or interaction whose handling will be constrained by the associated terms.
-    placeholder: "Example: personal data of business users and of people acting on their behalf"
+    placeholder: personal data of business users and of people acting on their behalf
 - type: textarea
   id: examples
   attributes:
@@ -47,4 +47,4 @@ body:
   attributes:
     label: References
     description: What operating system are you using?
-    placeholder: "Example: Open Terms Archive discussion: https://github.com/OpenTermsArchive/engine/discussions/923"
+    placeholder: "Open Terms Archive discussion: https://github.com/OpenTermsArchive/engine/discussions/923"
