@@ -41,13 +41,9 @@ body:
       Provide examples of documents of this new terms type with the URL address from which the document can be accessed, the title of the document provided at this URL and the name of the service provider.
     placeholder: |
       Example:
-      URL: https://www.partners.skyscanner.net/privacy-policy
-      Title: Corporate Business Contact Privacy Notice
-      Service: Skyscanner
+      [Corporate Business Contact Privacy Notice](https://www.partners.skyscanner.net/privacy-policy) | Skyscanner
     value: |
-      URL: 
-      Title: 
-      Service: 
+      [Title](URL) | Service name
 - type: textarea
   id: references
   attributes:
