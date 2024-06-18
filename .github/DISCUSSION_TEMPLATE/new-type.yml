@@ -38,11 +38,15 @@ body:
   attributes:
     label: Examples
     description: |
-      Provide examples of documents of this new terms type
-      For example:
-        URL: https://www.partners.skyscanner.net/privacy-policy
-        Title: Corporate Business Contact Privacy Notice
-        Service: Skyscanner
+      Provide examples of documents of this new terms type with: 
+      URL: the url address from which the document can be accessed
+      Title: the title of the document provided at this URL
+      Service: the name of the service provider
+    placeholder: |
+      Example:
+      URL: https://www.partners.skyscanner.net/privacy-policy
+      Title: Corporate Business Contact Privacy Notice
+      Service: Skyscanner
 - type: textarea
   id: references
   attributes:
