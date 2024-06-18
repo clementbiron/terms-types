@@ -39,8 +39,7 @@ body:
     label: Examples
     description: |
       Provide examples of documents of this new terms type with the URL address from which the document can be accessed, the title of the document provided at this URL and the name of the service provider.
-    placeholder: |
-      Example:
+      For example:
       [Corporate Business Contact Privacy Notice](https://www.partners.skyscanner.net/privacy-policy) | Skyscanner
     value: |
       [Title](URL) | Service name
