@@ -7,7 +7,7 @@ body:
     label: Type name
     description: | 
     What is the name of the terms type you would like to add?
-    For example: Business Privacy Policy
+    "For example: Business Privacy Policy"
   validations:
     required: true
 - type: textarea
