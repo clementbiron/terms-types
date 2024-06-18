@@ -1,5 +1,5 @@
-title: "Add: <!-- here goes your type name -->"
-labels: ["New type"]]
+title: "Add: <here goes your type name>"
+labels: ["New type"]
 body:
 - type: input
   id: name
