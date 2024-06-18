@@ -37,19 +37,12 @@ body:
   id: examples
   attributes:
     label: Examples
-    description: Provide examples of documents of this new terms type
-    placeholder: |
-      Example:
+    description: |
+      Provide examples of documents of this new terms type
+      For example
       - URL: https://www.partners.skyscanner.net/privacy-policy
         Title: Corporate Business Contact Privacy Notice
         Service: Skyscanner
-      - URL: https://bolt.eu/en/legal/ie/privacy-for-drivers/
-        Title: Privacy Notice for Drivers
-        Service: Bolt
-      - URL: https://www.shopify.com/legal/privacy/merchants
-        Title: Privacy for Merchants
-        Service: Shopify
-    render: markdown
 - type: textarea
   id: references
   attributes:
