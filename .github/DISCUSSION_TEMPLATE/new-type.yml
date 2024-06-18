@@ -5,9 +5,8 @@ body:
   id: name
   attributes:
     label: Type name
-    description: | 
-      What is the name of the terms type you would like to add?
-      For example: Business Privacy Policy
+    description: What is the name of the terms type you would like to add?
+    placeholder: Business Privacy Policy
   validations:
     required: true
 - type: textarea
