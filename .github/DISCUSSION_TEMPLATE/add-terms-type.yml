@@ -1,0 +1,10 @@
+title: "Add: "
+labels: ["New type"]
+- type: input
+  id: type-name
+  attributes:
+    label: Type name
+    description: What is the name of the terms type you would like to add?
+    value: Type name
+  validations:
+    required: true
