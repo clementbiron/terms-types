@@ -38,11 +38,13 @@ body:
   attributes:
     label: Examples
     description: Provide examples of documents of this new terms type
-    value: |
-      1. <URL><Title><Service>
-      2. <URL><Title><Service>
-      3. <URL><Title><Service>
-      ...
+    placeholder: |
+      | URL                                                       | Title                                     | Service    |
+      |-----------------------------------------------------------|-------------------------------------------|------------|
+      | [URL](https://www.partners.skyscanner.net/privacy-policy) | Corporate Business Contact Privacy Notice | Skyscanner |
+      | [URL](https://bolt.eu/en/legal/ie/privacy-for-drivers/)   | Privacy Notice for Drivers                | Bolt       |
+      | [URL](https://www.shopify.com/legal/privacy/merchants)    | Privacy for Merchants                     | Shopify    |
+    render: markdown
 - type: textarea
   id: references
   attributes:
