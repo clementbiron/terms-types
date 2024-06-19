@@ -51,4 +51,4 @@ body:
     description: | 
       Related resources that may help to understand the purpose of this type, such as legal definitions, or the discussions that led to the choice of this name.
       e.g. `Digital Service Act: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065`
-    placeholder: "Open Terms Archive discussion: https://github.com/OpenTermsArchive/engine/discussions/923"
+    placeholder: "Digital Service Act: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065"
