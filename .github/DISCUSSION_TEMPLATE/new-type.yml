@@ -14,7 +14,7 @@ body:
   attributes:
     label: Alternative type names
     description: Known synonyms for the same terms type.
-    placeholder: |
+    placeholder: | 
       Business Users Privacy Policy
       Commercial Privacy Policy
 - type: input
