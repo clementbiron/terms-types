@@ -44,6 +44,8 @@ body:
       e.g. `https://www.partners.skyscanner.net/privacy-policy - Corporate Business Contact Privacy Notice - Skyscanner`
     placeholder: | 
       https://www.partners.skyscanner.net/privacy-policy - Corporate Business Contact Privacy Notice - Skyscanner
+    validations:
+      required: true
 - type: textarea
   id: references
   attributes:
