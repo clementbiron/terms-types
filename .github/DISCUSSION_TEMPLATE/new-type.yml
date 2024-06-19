@@ -51,6 +51,5 @@ body:
   attributes:
     label: References
     description: | 
-      Related resources that may help to understand the purpose of this type, such as legal definitions, or the discussions that led to the choice of this name.
-      e.g. `Digital Service Act: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065`
+      Related resources that may help to understand the purpose of this type, such as legal definitions, or the discussions that led to the choice of this name. e.g. `Digital Service Act: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065`
     placeholder: "Digital Service Act: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065"
