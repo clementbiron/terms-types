@@ -31,8 +31,11 @@ body:
     label: Can you provide examples of documents containing these terms?
     description: |
       Examples of documents that contain terms of the suggested type, in the form `URL - Title - Jurisdiction`, one per line. Provide the URL address at which the document can be accessed; the title of the document provided at this URL; and, if possible, the jurisdiction to which the document refers.
-    placeholder: | 
-      https://www.whatsapp.com/legal/privacy-policy-eea?lang=en - Privacy Policy - European Economic Area
+    value: |
+      | URL | Title | Jurisdiction |
+      | --- | --- | --- |
+      | https://example.com | Example Policy | US |
+      | | | |
     render: table
   validations:
     required: true
