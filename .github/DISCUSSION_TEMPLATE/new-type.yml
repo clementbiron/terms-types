@@ -33,6 +33,7 @@ body:
       Examples of documents that contain terms of the suggested type, in the form `URL - Title - Jurisdiction`, one per line. Provide the URL address at which the document can be accessed; the title of the document provided at this URL; and, if possible, the jurisdiction to which the document refers.
     placeholder: | 
       https://www.whatsapp.com/legal/privacy-policy-eea?lang=en - Privacy Policy - European Economic Area
+    render: csv
   validations:
     required: true
 - type: textarea
