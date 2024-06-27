@@ -2,7 +2,7 @@ title: "<suggested new type name>"
 labels: ["New type"]
 description: | 
   ## Welcome
-      Please share the details below to help us better understand your terms suggestion.
+  Please share the details below to help us better understand your terms suggestion.
 body:
 - type: textarea
   id: alternative-type-names
