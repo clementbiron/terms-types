@@ -4,7 +4,8 @@ body:
 - type: markdown
   attributes:
     value: |
-      Votre texte d'introduction ici. Vous pouvez utiliser du **Markdown** pour le formatage.
+      ## Welcome
+      Please share the details below to help us better understand your terms suggestion.
 - type: textarea
   id: alternative-type-names
   attributes:
