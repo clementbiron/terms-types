@@ -1,11 +1,9 @@
 title: "<suggested new type name>"
 labels: ["New type"]
-body:
-- type: markdown
-  attributes:
-    value: |
-      ## Welcome
+description: | 
+  ## Welcome
       Please share the details below to help us better understand your terms suggestion.
+body:
 - type: textarea
   id: alternative-type-names
   attributes:
