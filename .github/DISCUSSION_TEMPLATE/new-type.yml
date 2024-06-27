@@ -4,7 +4,7 @@ body:
 - type: markdown
   attributes:
     value: | 
-      Please share the details below to help us better understand your terms suggestion.
+      Please share the details below to help the community to better understand your terms type suggestion.
 - type: textarea
   id: alternative-type-names
   attributes:
@@ -40,7 +40,7 @@ body:
   attributes:
     label: Are there any relevant references for this type?
     description: | 
-      Related resources that may help to understand the purpose of this type, such as legal definitions, or the discussions that led to the choice of this name.
+      Related references such as legal definitions, or the discussions that led to the choice of this name.
     placeholder: "Digital Service Act: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065"
 - type: textarea
   id: comments
