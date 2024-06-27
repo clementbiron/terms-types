@@ -3,7 +3,8 @@ labels: ["New type"]
 body:
 - type: markdown
   attributes:
-    value: **Please share the details below to help us better understand your terms suggestion.**
+    value: | 
+    **Please share the details below to help us better understand your terms suggestion.**
 - type: textarea
   id: alternative-type-names
   attributes:
