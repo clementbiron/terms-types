@@ -3,13 +3,22 @@ labels: ["New type"]
 body:
 - type: markdown
   attributes:
-    value: | 
+    value: |  
       ## Thank you for suggesting a new type!
       
       **Terms types** enable discovering terms and comparing them across services. Once a type is in use, it is there to stay. It is therefore critical to ensure that each type is well defined and has actual uses. The questions below will help define the type and enable the Open Terms Archive community to discuss its relevance to the wider ecosystem.
       
       Before suggesting a new type, please make sure to go through the ones that have already been suggested. If your suggestion has already been made somewhere else, even under a different name, please upvote it and join the existing discussion.
-      
+- type: textarea
+  id: examples
+  attributes:
+    label: What are some documents containing these terms?
+    description: |
+      Examples of documents that contain terms of the suggested type, in the form `Service name - URL - Document title - Jurisdiction`, one per line. Provide the URL address at which the document can be accessed; the title of the document provided at this URL; and, if possible, the jurisdiction to which the document refers.
+    placeholder: | 
+      WhatsApp - https://www.whatsapp.com/legal/privacy-policy-eea?lang=en - Privacy Policy - European Economic Area
+  validations:
+    required: true
 - type: textarea
   id: alternative-type-names
   attributes:
@@ -29,17 +38,7 @@ body:
   attributes:
     label: What is the object of commitment in these terms?
     description: The information handling or interaction that is constrained by the associated terms.
-    placeholder: personal data of business users
-- type: textarea
-  id: examples
-  attributes:
-    label: What are some documents containing these terms?
-    description: |
-      Examples of documents that contain terms of the suggested type, in the form `Service name - URL - Document title - Jurisdiction`, one per line. Provide the URL address at which the document can be accessed; the title of the document provided at this URL; and, if possible, the jurisdiction to which the document refers.
-    placeholder: | 
-      WhatsApp - https://www.whatsapp.com/legal/privacy-policy-eea?lang=en - Privacy Policy - European Economic Area
-  validations:
-    required: true
+    placeholder: personal data of business user
 - type: textarea
   id: references
   attributes:
