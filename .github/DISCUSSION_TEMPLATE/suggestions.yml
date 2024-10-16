@@ -3,12 +3,17 @@ labels: ["New type"]
 body:
 - type: markdown
   attributes:
-    value: |  
+    value: | 
       ## Thank you for suggesting a new type!
-      
+
       **Terms types** enable discovering terms and comparing them across services. Once a type is in use, it is there to stay. It is therefore critical to ensure that each type is well defined and has actual uses. The questions below will help define the type and enable the Open Terms Archive community to discuss its relevance to the wider ecosystem.
-      
-      Before suggesting a new type, please make sure to go through the ones that have already been suggested. If your suggestion has already been made somewhere else, even under a different name, please upvote it and join the existing discussion.
+
+      ### If no existing [implemented or suggested type](https://github.com/OpenTermsArchive/terms-types/discussions) matches your suggestion, fill in the fields below and start a discussion!
+- type: markdown
+  attributes:
+    value: | 
+      - Ensure that the <suggested new type name> is not already used in the [database](./termsTypes.json).
+      - Note that service-specific types (such as “Twitter Privacy Policy”) are not allowed. Terms types aim at allowing comparisons across services and should thus be generic.
 - type: textarea
   id: examples
   attributes:
@@ -22,7 +27,7 @@ body:
 - type: textarea
   id: alternative-type-names
   attributes:
-    label: What are some alternative names for this type?
+    label: What could be some alternative names for this type?
     description: Known synonyms or other ideas you have for this same terms type.
     placeholder: | 
       Business Users Privacy Policy
@@ -30,15 +35,15 @@ body:
 - type: input
   id: audience
   attributes:
-    label: Who is the target of these terms?
-    description: The entities whose rights and duties are defined in the associated terms.
+    label: Whose rights and duties are defined in these terms?
+    description: The entities targeted by these terms.
     placeholder: business user
 - type: input
   id: object
   attributes:
     label: What is the object of commitment in these terms?
     description: The information handling or interaction that is constrained by the associated terms.
-    placeholder: personal data of business user
+    placeholder: personal data of business users
 - type: textarea
   id: references
   attributes:
